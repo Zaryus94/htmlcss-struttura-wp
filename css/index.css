@@ -5,9 +5,9 @@
 }
 
 .pink{
-  margin: 20px 10% 0 10%;  
+  margin: 15px 10% 0 10%;  
   width: 80%;
-  height: 150px;
+  height: 135px;
   border: 1px solid #db7dd1;
   background-color: #db7dd1;
 }
@@ -15,7 +15,7 @@
 .gold{
     margin: 20px 10% 0 10%;
     width: 80%;
-    height: 300px;
+    height: 450px;
     border: 1px solid #e1d67a;
     background-color: #e1d67a;
 }
@@ -23,25 +23,65 @@
 .azure{
     margin: 20px 10% 0 10%;
     width: 80%;
-    height: 450px;
+    height: 675px;
     border: 1px solid #abcfe7;
     background-color: #abcfe7;
 }
 
 .purple{
-    margin: 10px 10% 20px 10%;
+    margin: 12px 10% 20px 10%;
     width: 80%;
-    height: 50px;
+    height: 54px;
     border: 1px solid #8801fe;
     background-color: #8801fe;
+  }
+
+  .layout{
+    width: 100%;
+    height: 570px;
+    border-top: 25px solid #0385ff;
+    border-bottom: 20px solid #0385ff;
+    margin-top: 7%;
+}
+
+.column-sx{
+    width: 25%;
+    height: 100%;
+    border-right: 10px solid #0385ff;
+    float: left;
+}
+
+.column{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.column-dx{
+    width: 25%;
+    height: 100%;
+    border-left: 10px solid #0385ff;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
 /* DEBUG 
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .pink{
-  margin: 20px 10% 0 10%;  
+  margin: 15px 10% 0 10%;  
   width: 80%;
-  height: 150px;
+  height: 135px;
   border: 1px solid #db7dd1;
   background-color: #db7dd1;
 }
@@ -49,7 +89,7 @@
 .gold{
     margin: 20px 10% 0 10%;
     width: 80%;
-    height: 300px;
+    height: 450px;
     border: 1px solid #e1d67a;
     background-color: #e1d67a;
 }
@@ -57,17 +97,51 @@
 .azure{
     margin: 20px 10% 0 10%;
     width: 80%;
-    height: 450px;
+    height: 675px;
     border: 1px solid #abcfe7;
     background-color: #abcfe7;
 }
 
 .purple{
-    margin: 10px 10% 20px 10%;
+    margin: 12px 10% 20px 10%;
     width: 80%;
-    height: 50px;
+    height: 54px;
     border: 1px solid #8801fe;
     background-color: #8801fe;
   }
 
-*/
+  .layout{
+    width: 100%;
+    height: 570px;
+    border-top: 25px solid #0385ff;
+    border-bottom: 20px solid #0385ff;
+    margin-top: 7%;
+}
+
+.column-sx{
+    width: 25%;
+    height: 100%;
+    border-right: 10px solid #0385ff;
+    float: left;
+}
+
+.column{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.column-dx{
+    width: 25%;
+    height: 100%;
+    border-left: 10px solid #0385ff;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+   */
